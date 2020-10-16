@@ -1,6 +1,10 @@
-class Solution 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+class Solution
 {
-	public List<List<Integer>> fourSum(int[] A, int target) 
+	public List<List<Integer>> fourSum(int[] A, int target)
 	{
 		List<List<Integer>> list = new ArrayList<>();
 		Arrays.sort(A);
