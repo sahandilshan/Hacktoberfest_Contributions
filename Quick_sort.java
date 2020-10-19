@@ -1,4 +1,4 @@
-public class QuickSort {  
+class QuickSort {
 public static void main(String[] args) {  
         int i;  
         int[] arr={90,23,101,45,65,23,67,89,34,23};  
@@ -20,7 +20,7 @@ public static void main(String[] args) {
             right--;  
             if(loc==right)  
             flag =1;  
-            elseif(a[loc]>a[right])  
+            else if(a[loc]>a[right])
             {  
                 temp = a[loc];  
                 a[loc] = a[right];  
@@ -33,7 +33,7 @@ public static void main(String[] args) {
                 left++;  
                 if(loc==left)  
                 flag =1;  
-                elseif(a[loc] <a[left])  
+                else if(a[loc] <a[left])
                 {  
                     temp = a[loc];  
                     a[loc] = a[left];  
@@ -42,7 +42,7 @@ public static void main(String[] args) {
                 }  
             }  
         }  
-        returnloc;  
+        return loc;
     }  
     static void quickSort(int a[], int beg, int end)  
     {  
