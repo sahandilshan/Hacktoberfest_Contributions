@@ -1,4 +1,4 @@
-// Java code for linearly searching x in arr[]. If x
+package seraching_algorithms;// Java code for linearly searching x in arr[]. If x
 // is present then return its location, otherwise
 // return -1
 

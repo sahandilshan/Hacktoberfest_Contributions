@@ -1,3 +1,5 @@
+package sorting_algorithms;
+
 class InsertionSort {
 
     /*Function to sort array using insertion sort*/

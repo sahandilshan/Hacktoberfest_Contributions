@@ -1,4 +1,6 @@
-class SelectionSort 
+package sorting_algorithms;
+
+class SelectionSort
 { 
     void sort(int arr[]) 
     { 
