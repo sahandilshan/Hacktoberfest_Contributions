@@ -1,4 +1,4 @@
-import java.util.Arrays;
+package seraching_algorithms;
 
 class BinarySearch {
     // Returns index of x if it is present in arr[l.. 

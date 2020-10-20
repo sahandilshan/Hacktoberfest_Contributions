@@ -1,3 +1,5 @@
+package sorting_algorithms;
+
 class QuickSort {
 public static void main(String[] args) {  
         int i;  
